@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'open sans', 'helvetica neue', helvetica, arial, sans-serif;
+  ;
+}
+
+header {
+
+  display: flex;
+  background-color: rgb(36, 40, 43);
+  color: white;
+  padding: 20px;
+  font-size: 13px;
+
+
+  /* Esto separa horizontalmente los elementos */
+  border-bottom: rgb(19, 141, 207) solid 5px;
+
+}
+
+header h1 {
+  margin-left: 200px;
+}
+
+.color_Azul {
+  color: rgb(19, 141, 207);
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5px;
+  margin-left: 800px;
+}
+
+nav a {
+
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+  padding: 5px 10px;
+  font-size: 13px;
+
+}
+
+nav a:hover {
+
+  color: rgb(36, 151, 218);
+}
+
+
+.Imagen_grande {
+
+  background-image: url('../assets/images/cabecera.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.texto_imagen {
+  color: white;
+  font-size: 12px;
+  width: 1000px;
+  margin-bottom: 140px;
+}
+
+.texto_imagen h2 {
+
+  font-size: 50px;
+  align-items: center;
+
+}
+
+.barra_intermedia {
+
+  background-color: rgb(36, 40, 43);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barra_intermedia h3 {
+  color: white;
+  padding-top: 5px;
+  margin-left: 200px;
+  font-size: 22px;
+}
+
+.barra_intermedia form {
+  margin-right: 300px;
+
+}
+
+.suscribirse input[type="email"] {
+  width: 250px;
+  height: 35px;
+}
+
+.boton_suscribete {
+  color: rgb(255, 255, 255);
+  background-color: rgb(248, 79, 0);
+  width: 100px;
+  height: 35px;
+  border: none;
+  /*  para quitarle el borde al boton*/
+}
+
+
+
+.logos {
+  display: flex;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  gap: 20px;
+  text-align: center;
+}
+
+.logos p {
+  font-size: 15px;
+
+}
+
+.logos img {
+  width: 100px;
+}
+
+
+footer {
+  background-color: rgb(36, 151, 218);
+  color: white;
+  height: 100px;
+
+}
+
+footer p {
+  text-align: center;
+  padding-top: 40px;
+}
+
+
+
+/* PAGINA 2 NOSOTROS*/
+
+.contenidoPagina2 {
+  display: flex;
+  padding: 40px;
+  margin-left: 100px;
+
+}
+
+.contenidoPagina2 h2 {
+  padding-bottom: 20px;
+
+}
+
+.seccion2 {
+  width: 1100px;
+}
+
+.texto1 {
+  width: auto;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.texto2 {
+  background-color: rgb(30, 37, 49);
+  color: white;
+  width: auto;
+  height: 150px;
+  padding: 30px;
+
+}
+
+.contenidoPagina2 img {
+  margin-top: 20px;
+  width: 100%;
+  height: 350px;
+
+}
+
+aside {
+  width: 300px;
+  margin-left: 60px;
+  background-color: rgb(30, 37, 49);
+  color: white;
+  height: 200px;
+  padding: 20px;
+}
+
+/*PAGINA 3 SERVICIOS*/
+
+.ContenedorPagina3 {
+  display: flex;
+  padding: 5px;
+  margin-left: 100px;
+  margin-top: 10px;
+
+}
+
+
+
+.tituloPagina3 {
+  padding-bottom: 10px;
+}
+
+.seccion3 {
+  width: 1140px;
+}
+
+.info1 {
+  background-color: rgb(230, 230, 230);
+  border: 1px solid rgb(182, 182, 182);
+  padding: 45px;
+  padding-left: 16px;
+
+
+}
+
+.info1 h3 {
+  padding-bottom: 21px;
+}
+
+.info2 {
+  background-color: rgb(230, 230, 230);
+  border: 1px solid rgb(182, 182, 182);
+  padding: 45px;
+  padding-left: 16px;
+  margin-top: 5px;
+
+
+}
+
+.info2 h3 {
+  padding-bottom: 21px;
+}
+
+
+.info3 {
+  background-color: rgb(230, 230, 230);
+  border: 1px solid rgb(182, 182, 182);
+  padding: 45px;
+  padding-left: 16px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+
+
+}
+
+.info3 h3 {
+  padding-bottom: 21px;
+}
+
+
+/* PAGINA 4 CONTACTO */
+
+.contenedorPagina4 {
+  display: flex;
+  padding: 5px;
+  margin-left: 150px;
+  margin-top: 20px;
+
+}
+
+
+
+.tituloPagina3 {
+  padding-bottom: 10px;
+}
+
+.formulario {
+  width: 1100px;
+  height: 647px;
+}
+
+
+.contenedorPagina4 img {
+  width: 300px;
+  height: 250px;
+  margin-left: 80px;
+  margin-top: 10px;
+
+}
+
+.contenedorPagina4 input{
+
+  width: 100%;
+  height: 35px;
+  
+  margin-bottom: 5px;
+}
+
+.aside4 {
+  width: 300px;
+  margin-left: 80px;
+  background-color: rgb(30, 37, 49);
+  color: white;
+  height: 200px;
+  padding: 20px;
+}
+.asideImg {
+  display: flex;
+  flex-direction: column;
+}
+
+.boton4[type="submit"] {
+   color: rgb(255, 255, 255);
+  background-color: rgb(248, 79, 0);
+  border: none;
+  margin-top: 5px;
+}
